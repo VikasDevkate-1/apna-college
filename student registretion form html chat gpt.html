@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <h1>Student Registration Form</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="fname" required>Father name:</label>
+      <input type="text" id="fathername" name="fathername" required a>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+      
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="3" cols="30" required></textarea><br><br>
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+      
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br><br>
+      
+      <label for="course">Course:</label>
+      <select id="course" name="course" required>
+        <option value="">Select</option>
+        <option value="computer-science">Computer Science</option>
+        <option value="BCA">BCA</option>
+        <option value="BSC">BSC</option>
+        <option value="BA">BA</option>
+        <option value="B.COM">B.COM</option>
+      </select><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+    <!-- <script>
+
+const scriptURL
+
+'https://script.google.com/macros/s/AKfycbxkgWotCMyvIKOT9aGPCnd2dHtHrq8i972t9CKAV106xC 7T01/exec
+
+const form = document.forms ['google-sheet']
+
+form.addEventListener('submit', e => {
+
+e.preventDefault()
+
+fetch (scriptURL, method: 'POST', body: new FormData (form) })
+
+.then(response => alert ("Thanks for Contacting us..! We Will Contact You Soon...")) .catch(error => console.error('Error!', error.message))
+
+})
+
+ -->
+    <!--  -->
+  </body>
+</html>
